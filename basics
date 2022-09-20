@@ -1,0 +1,33 @@
+DevsecOPs
+
+
+Jenkins Baseline scan - 
+https://cycode.com/blog/jenkins-security-best-practices/
+
+Basic benchmarks to be checked:
+
+OS Hardening
+Authentication
+Authorization
+
+Package manager  - nexus iq
+
+
+ThreatModeler
+ThreatModeler is a standalone tool with a rich API that provides two-way integrations to almost all tools in the CI/CD toolchain. This means that all of the ThreatModeler modules can benefit from the information created by all stakeholders. ThreatModeler also supplies a set of dashboards which allow everyone to influence application security. ThreatModeler’s Intelligent Threat Engine utilizes functional information from an application’s components to automatically identify each component’s security threats. It does this while gathering associated security requirements, test cases, and code review guidelines—and it identifies problematic code to provide the information needed to build a protection plan. The Automated Threat Intelligence Framework helps keep users up-to-date on the latest real-life security threats with an automatically generated threat tree that provides a hierarchical view of all threats and their relation to the underlying attributes of the application. ThreatModeler offers a 10-day free trial and specific pricing options for every module and company size.
+Checkmarx
+Checkmarx is a large organization offering solutions for developers and DevOps engineers that incorporate security code analysis and testing into the development process. The company’s AppSec Accelerator, the first tool used in the development process, is an application security managed service that helps development teams work with a more secure SDLC process. It combines SAST and DAST to achieve high-security coverage of the code; automatically identifies the application’s security requirements, policies, and compliance; and conducts a full installation and service setup. In a few simple steps, developers can use AppSec Accelerator to enable code security scans and get results as part of the development process. CxIAST is the second part of the solution, filling the security gap created in continuous development. CxIAST monitors the application behavior and detects vulnerabilities that can only be found on a running application. It can be easily integrated with any CI/CD tool or environment, and can extend almost every testing framework to supply security insights on top of specific test results.
+IMMUNIO
+IMMUNIO is a tool that operates a bit differently. Rather than continuously scanning the application code and testing the application with a black-box approach, it deploys an agent inside the application and tries to focus on possible exploitations. IMMUNIO reports only exploitable vulnerabilities, reducing friction in the development lifecycle. Using the same agent, it hooks into the application framework at key points and automatically prevents attacks, protecting the application at runtime. It also monitors the application, providing real-time views of actual attacks and the attackers performing them, as well as detailed diagnostics about the attack types and sources, attempted exploits, and targeted vulnerabilities. IMMUNIO breaks down it’s pricing into protection and analysis packages, allowing organizations of different sizes to choose the package they want to use.
+Aqua Security
+Aqua Security is a security platform that specializes in containerized applications and their infrastructures. While other tools focus on the application code and testing the application, Aqua Security secures the application’s images, network, access, and orchestrators. It also scans docker images for vulnerabilities, secrets, and malware, and ensures deployed images are protected in runtime. Other features include integrating Kubernetes, securing the cluster from the lowest network level, visualizing network connection, mapping legitimate connections, and automatically creating FW rules based on the Kubernetes’ clusters and deployments. Further, Aqua Security controls scaling rules and prevents running unapproved images based on predefined policies. It also helps secure the network by discovering and visualizing the containers’ topology, which is constantly updated based on actual activity. This allows users to group containers into services, thus establishing communication rules within and between these services. Lastly, Aqua Security supplies a firewall to determine if images were compromised and to block unauthorized network connections to the containers.  
+ GauntIt
+Gauntlt is an open-source command-line testing framework that combines several security tools, allowing users to create tests and suites that can be easily admitted into the deploy and testing processes. It enables users to create and execute tests from different tools (curl, sslyze, heartbleed, and more) to attack and penetrate the application. It also uses BDD syntax to allow readable and structured tests and assists with improving collaboration between the teams that are building the application.
+CA Veracode
+CA VeraCode is one of the most extensive security tools built to specifically serve the DevSecOps community, allowing users to build and deliver secured applications. CA Veracode has five modules that cover most needs of security officers and application developers:
+* Static Analysis: studies the code during the build and forms a list of potential security risks and remediation advice per risks
+* Greenlight: checks the code for possible security flaws
+* Software Composition Analysis: helps developers build a list of open-source components for the specifically identified vulnerabilities in the open-source code that was used
+* Dynamic Analysis Security Testing: scans and assesses the binaries of third-party providers
+* Web Application Scanning: executes a dynamic security analysis to find and fix flaws in a deployed instance of the application
+
